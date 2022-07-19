@@ -10,6 +10,7 @@ import { HomeComponent } from './components/home/home.component';
 import { SearchComponent } from './components/search/search.component';
 import { TagsComponent } from './components/tags/tags.component';
 import { FoodpageComponent } from './components/foodpage/foodpage.component';
+import { CartPageComponent } from './components/cart-page/cart-page.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { FoodpageComponent } from './components/foodpage/foodpage.component';
     HomeComponent,
     SearchComponent,
     TagsComponent,
-    FoodpageComponent
+    FoodpageComponent,
+    CartPageComponent
   ],
   imports: [
     BrowserModule,
