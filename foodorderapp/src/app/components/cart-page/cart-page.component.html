@@ -1,4 +1,11 @@
-<div class="container">
+
+<app-notfound [visible]="!cart || cart.items.length <=0"
+    notFoundMessage = "Cart Page Is Empty"
+    resetLinkText="Go To HomePage"
+>
+
+</app-notfound>
+<div *ngIf="cart && cart.items.length > 0" class="container">
     <ul>
         <li *ngFor="let cartItem of cart.items">
             <div>

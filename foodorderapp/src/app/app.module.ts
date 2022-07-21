@@ -11,6 +11,7 @@ import { SearchComponent } from './components/search/search.component';
 import { TagsComponent } from './components/tags/tags.component';
 import { FoodpageComponent } from './components/foodpage/foodpage.component';
 import { CartPageComponent } from './components/cart-page/cart-page.component';
+import { NotfoundComponent } from './components/notfound/notfound.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { CartPageComponent } from './components/cart-page/cart-page.component';
     SearchComponent,
     TagsComponent,
     FoodpageComponent,
-    CartPageComponent
+    CartPageComponent,
+    NotfoundComponent
   ],
   imports: [
     BrowserModule,
